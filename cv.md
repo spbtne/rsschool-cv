@@ -16,6 +16,7 @@ Hi everyone! I`m 28 years old and I want to find myself in Frontend Develop. I h
 - Basic Photoshop
 - Basic JavaScript
 
+
 ## Code Example
 
 ```
@@ -35,3 +36,20 @@ searchButton.addEventListener("click", function (evt) {
 });
 ```
 
+## Work experience
+
+- **HTML Academy** HTML & CSS Basic course
+
+- **Pet project** https://spbtne.github.io/1.sedona-pet-project/
+
+## Education
+
+- **St. Petersburg State Transport University** 2009-2014 / Economics and Social Management faculty
+
+- **HTML Academy** May, 2020 - Current time
+
+- **Hexlet** May, 2020 - Current time
+
+## English level
+
+- EPAM Training center Eng Test **A2+**
