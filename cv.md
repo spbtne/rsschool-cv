@@ -16,3 +16,22 @@ Hi everyone! I`m 28 years old and I want to find myself in Frontend Develop. I h
 - Basic Photoshop
 - Basic JavaScript
 
+## Code Example
+
+```
+searchButton.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  searchFormWrapper.classList.remove("visually-hidden");
+  searchForm.classList.remove("form-hide");
+  searchForm.classList.remove("visually-hidden");
+  searchForm.classList.remove("shake");
+  searchForm.classList.add("form-show");
+  clickCount++;
+  if (clickCount % 2 == 0) {
+    searchForm.classList.remove("form-show");
+    searchForm.classList.add("form-hide");
+    setTimeout(() => searchFormWrapper.classList.add("visually-hidden"), 1000);
+  }
+});
+```
+
