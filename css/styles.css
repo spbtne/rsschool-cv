@@ -1,0 +1,10 @@
+body {
+  list-style: none;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+.wrapper {
+  max-width: 1024px;
+  display: block;
+  margin: 0 auto;
+}
