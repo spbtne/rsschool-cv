@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikita Tushin</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Nikita Tushin</h1>
+      <span class="header__description">Trainee Frontend Developer </span>
+      <img src="/img/photo.jpg" alt="Photo" class="header__photo" />
+      <div class="header__contacts contacts">
+        <span class="contacts__phone">	
+          <a href="tel:+7(931)-293-32-30">+7(931)-293-32-30</a></span>
+          <span class="contacts__e-mail">
+            <a href = "mailto: spbtne@gmail.com">spbtne@gmail.com</a>
+          </span>
+      </div>
+    </header>
+    <main>
+      <article class="summary">
+        <p class="summary__title title">Summary</p>
+        <p class="summary__text">
+          Hi everyone! I`m 28 years old and I want to find myself in Frontend
+          Develop. I have no real production experience but create one
+          pet-project on GitHub. Main goal for now is learn enough to find my
+          first job as Web Developer and improve my skills every day to become
+          Senior Frontend Developer. I am fast learning and like to find out
+          new.
+        </p>
+      </article>
+      <section class="skills">
+        <p class="skills__title title">Skills</p>
+        <ul class="skills__list">
+          <li class="skills__item">HTML</li>
+          <li class="skills__item">CSS</li>
+          <li class="skills__item">Basic Photoshop</li>
+          <li class="skills__item">Basic JavaScript</li>
+        </ul>
+      </section>
+      <article class="code-example">
+        <p class="code-example__title title"></p>
+        <code>
+          searchButton.addEventListener("click", function (evt) {
+          evt.preventDefault();
+          searchFormWrapper.classList.remove("visually-hidden");
+          searchForm.classList.remove("form-hide");
+          searchForm.classList.remove("visually-hidden");
+          searchForm.classList.remove("shake");
+          searchForm.classList.add("form-show"); clickCount++; if (clickCount %
+          2 == 0) { searchForm.classList.remove("form-show");
+          searchForm.classList.add("form-hide"); setTimeout(() =>
+          searchFormWrapper.classList.add("visually-hidden"), 1000); } });
+        </code>
+      </article>
+      <section class="last-work">
+        <p class="last-work__title title">Work experience</p>
+        <p class="course">HTML Academy HTML & CSS Basic course</p>
+        <a
+          href="https://spbtne.github.io/1.sedona-pet-project/"
+          class="pet-project"
+        >
+          <p>Pet-project Sedona</p></a
+        >
+      </section>
+
+      <section class="education">
+        <p class="education__title title">Education</p>
+        <ul class="education__list">
+          <li class="education__item">
+            <b>St. Petersburg State Transport University</b> 2009-2014 /
+            Economics and Social Management faculty
+          </li>
+          <li class="education__item">
+            <b>HTML Academy</b> May, 2020 - Current time
+          </li>
+          <li class="education__item">
+            <b>Hexlet</b> May, 2020 - Current time
+          </li>
+        </ul>
+      </section>
+      <section class="eng-level">
+        <p class="eng-level__title title">English level</p>
+        <span class="eng-level__description">
+          EPAM Training center Eng Test <b>A2+</b>
+        </span>
+      </section>
+    </main>
+    <footer>
+      <div class="header__contacts contacts">
+        <span class="contacts__phone">	
+          <a href="tel:+7(931)-293-32-30">+7(931)-293-32-30</a></span>
+          <span class="contacts__e-mail">
+            <a href = "mailto: spbtne@gmail.com">spbtne@gmail.com</a>
+          </span>
+      </div>
+    </footer>
+  </body>
+</html>
